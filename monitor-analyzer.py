@@ -12,7 +12,7 @@ def display_banner():
     banner = pyfiglet.figlet_format("Network Monitor")
     print(Fore.MAGENTA + banner)
     print(Fore.CYAN + "=" * 60)
-    print(Fore.YELLOW + "Created by: Fenrir - Penetration Tester")
+    print(Fore.YELLOW + "Created by: Sirius - Penetration Tester")
     print(Fore.YELLOW + "Purpose: Monitor network traffic by protocol")
     print(Fore.CYAN + "=" * 60 + Style.RESET_ALL)
 
